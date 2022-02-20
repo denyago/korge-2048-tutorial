@@ -22,18 +22,10 @@ apply<KorgeGradlePlugin>()
 
 korge {
   id = "name.denyago.game2048"
-// To enable all targets at once
-
-  // targetAll()
-
-// To enable targets based on properties/environment variables
-  // targetDefault()
-
-// To selectively enable targets
 
   targetJvm()
   targetJs()
-  targetDesktop()
+  // targetDesktop()
   // targetIos()
   // targetAndroidIndirect() // targetAndroidDirect()
 }
